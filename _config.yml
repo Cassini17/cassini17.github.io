@@ -1,5 +1,5 @@
 # General Jekyll Config
-url: http://zoudiqiu.com
+url: http://bbc.co.uk
 safe: true
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
