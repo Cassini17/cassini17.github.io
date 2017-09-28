@@ -1,5 +1,5 @@
 # General Jekyll Config
-url: http://cassini17.github.io
+url: http://zoudiqiu.com
 safe: true
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
