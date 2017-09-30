@@ -70,3 +70,5 @@ If you plan on sticking with building web applications, then check out Ruby on R
 If you are interested in building web applications but would like to learn a language that’s used more generally, check out Python and Django. You’ll get a diverse community and lots of influence and support from the various industries that it is used in.
 
 Either way, you can’t go wrong. Almost everything you learn in Python can be translated to Ruby and vice versa. The same goes for Django and Rails. They both have supportive communities behind them. If you have friends doing one or the other, join them because you can always ask them for help along the way.
+
+>> [source](https://learn.onemonth.com/ruby-vs-python/)
