@@ -22,3 +22,11 @@ Python takes a more direct approach to programming. It’s main goal is to make 
 
 One great example showing the difference here is working with time in your application. Imagine you want to get the time one month from this very second. Here is how you would do that in both languages
 
+#### Ruby
+> require8 'active_support/all'
+> new_time = 1.month.from_now
+
+#### Python
+> from datetime import datetime
+> from dateutil.relativedelta import relativedelta
+> new_time = datetime.now() + relativedelta(months=1)
