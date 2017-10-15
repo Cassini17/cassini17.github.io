@@ -1,20 +1,22 @@
-## Set up synchronization by git
+## Set up synchronization by git  
+---
 
 #### check-out git version
-git --version
+>git --version
 
 #### check-out git configuration
-git config --list
+>git config --list
 
 #### Set up git synchronization between github,aws and mac
-git remote -v
-git remote add origin https://github.com/Cassini17/laralog.git
-git push --set-upstream origin master
+>git remote -v
+>git remote add origin https://github.com/Cassini17/laralog.git
+>git push --set-upstream origin master
 
 #### synchronize github with aws
-git push
+>git push
 
 ## Set-up Mac 
+---
 #### Download and install sublime text 3
 [sublime website](https://sublimetext.com)
 #### Register sublime
@@ -33,12 +35,13 @@ E36B85CC 84991F19 7575D828 470A92AB
 —— END LICENSE ——
 
 #### install mysql on mac
-brew install mysql
+>brew install mysql
 
 #### set-up mysql on mac
-brew services start mysql
-mysql_secure_installation
-modify .env
+>brew services start mysql
+>mysql_secure_installation
+>modify .env
 
 #### restore mysql tables
-php artisan migrate
+>php artisan migrate
+
