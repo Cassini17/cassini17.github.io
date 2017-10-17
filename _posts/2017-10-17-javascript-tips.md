@@ -21,7 +21,7 @@
 > Math.random();
 > Math.floor();
 
-## functions
+## array functions
 #### map
 > var newArray = oldArray.map(function (val) {
 >   return val * 2;
@@ -32,3 +32,20 @@
 >   return previousVal + currentVal;
 > },0
 > );
+#### filter
+> var newArray = oldArray.filter(function (val) {
+>  return val <= 5;
+> }
+> );
+#### sort
+> array.sort(function (a,b) {
+>  return a - b;
+> });
+#### reverse
+> newArray = array.reverse();
+#### concat
+> newArray = oldArray.concat(concatMe);
+#### split
+> array = string.split(' ');
+#### join
+> joinedString = joinMe.join(" ");
