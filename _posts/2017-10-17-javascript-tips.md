@@ -49,3 +49,19 @@
 > array = string.split(' ');
 #### join
 > joinedString = joinMe.join(" ");
+#### upper and lower case
+> str.toUpperCase();
+> str,toLowerCase();
+#### value to string
+> String(val)
+> "" + val
+> val.toString()
+#### substr and substring
+> str.substr(start,length)
+> str.substring(start,end)
+#### slice and splice
+> array.slice(start,end)
+> string.slice(start,end)
+> array.splice(start,deleteCount,item,,,)
+
+
