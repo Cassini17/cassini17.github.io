@@ -35,8 +35,7 @@
 #### filter
 > var newArray = oldArray.filter(function (val) {
 >  return val <= 5;
-> }
-> );
+> });
 #### sort
 > array.sort(function (a,b) {
 >  return a - b;
@@ -62,6 +61,10 @@
 #### slice and splice
 > array.slice(start,end)
 > string.slice(start,end)
-> array.splice(start,deleteCount,item,,,)
+> delete = array.splice(start,deleteCount,item,,,)
+#### Array.from
+> var args = Array.from(arguments).slice(1);
+#### array.includes
+> arr.includes(val)
 
 
