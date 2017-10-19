@@ -66,5 +66,8 @@
 > var args = Array.from(arguments).slice(1);
 #### array.includes
 > arr.includes(val)
+#### charCodeAt & fromCharCode
+str.charCodeAt(pos)
+String.fromCharCode(num)
 
 
