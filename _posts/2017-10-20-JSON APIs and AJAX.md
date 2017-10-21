@@ -17,3 +17,5 @@
     $("#data").html("latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude);
   });
 }
+#### try catch finally
+> function inIframe { try {} catch(e) {} finally {} }
