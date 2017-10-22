@@ -19,3 +19,13 @@
 }
 #### try catch finally
 > function inIframe { try {} catch(e) {} finally {} }
+#### jquery.ajax
+> $.ajax({
+> headers:{
+> "xxx-key":rtyui9op,
+> Accept:"Application/json",
+> "Content-Type":"application/x-www-form-urlencoded"
+> },
+> url:'',
+> success:function(r){}
+> });
