@@ -29,3 +29,5 @@
 > url:'',
 > success:function(r){}
 > });
+#### animate
+> $(".quote-text").animate ({
