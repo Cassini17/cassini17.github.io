@@ -30,4 +30,6 @@
 > success:function(r){}
 > });
 #### animate
-> $(".quote-text").animate ({
+> $(".quote-text").animate ({opacity:0},500,function(){
+> $(this)
+> 
