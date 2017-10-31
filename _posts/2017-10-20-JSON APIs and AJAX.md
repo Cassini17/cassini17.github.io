@@ -29,6 +29,11 @@
 > url:'',
 > success:function(r){}
 > });
+#### jquery.ajax 2
+> $.ajax({
+> url: "",
+> success: function(result){}
+> });
 #### animate
 > $(".quote-text").animate ({opacity:0},500,function(){
 > $(this)
